@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .content {
+    min-height: calc(100vh - 50px); /* Reduce el espacio total disponible para subir el footer */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer {
+    margin-top: auto; /* Sigue empujando el footer hacia abajo */
+    padding-bottom: 10px; /* Opcional: ajusta el espacio interno */
+  }
+  
